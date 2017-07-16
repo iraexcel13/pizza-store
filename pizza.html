@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+    <title>Pizza Store</title>
+  </head>
+  <body background="img/sky.jpg">
+    <div class="jumbotron">
+    <img src="img/pizza2.gif" alt="Picture of Moving Pizza"
+      height="200" width="400"></img>
+    <center><h2>YAM Pizza House</h2><center>
+    </div>
+    <div class="backgorund">
+    <div class="container">
+    <form id="pizza-order">
+      <div class="form-group">
+        <h4>Please choose your toppings:</h4>
+        <input type="checkbox" name="topping" value="Pepperoni"> Pepperoni <img src="img/pepperoni.jpg" height="50" width="50"></img><br>
+        <input type="checkbox" name="topping" value="Sausage">Sausage <img src="img/sausage.jpg" height="50" width="50"></img><br>
+        <input type="checkbox" name="topping" value="Ham">Ham <img src="img/ham.jpg" height="50" width="50"></img><br>
+        <input type="checkbox" name="topping" value="Bacon">Bacon <img src="img/bacon.jpg" height="50" width="50"></img><br>
+        <input type="checkbox" name="topping" value="Beef">Beef <img src="img/beef.jpg" height="50" width="50"></img><br>
+        <input type="checkbox" name="topping" value="Pork">Pork <img src="img/pork.jpg" height="50" width="50"></img><br>
+        <input type="checkbox" name="topping" value="Mushroom">Mushroom <img src="img/mushroom.jpg" height="50" width="50"></img><br>
+        <input type="checkbox" name="topping" value="Onion">Onion <img src="img/onion.jpg" height="50" width="50"></img><br>
+        <input type="checkbox" name="topping" value="Pineapple">Pineapple <img src="img/pineapple.jpg" height="50" width="50"></img><br>
+        <input type="checkbox" name="topping" value="Pepper">Green Bell Pepper <img src="img/pepper.jpg" height="50" width="50"></img><br>
+        <input type="checkbox" name="topping" value="Jalapeno">Jalapeno <img src="img/jalapeno.jpg" height="50" width="50"></img><br>
+        <input type="checkbox" name="topping" value="Tomato">Tomato <img src="img/tomato.jpg" height="50" width="50"></img><br>
+        <input type="checkbox" name="topping" value="Olives">Olives <img src="img/olives.jpg" height="50" width="50"></img><br>
+      </div> <br>
+      <div class="form-group">
+       <h1>PIZZA SIZE</h1>
+       <input type="radio" name="pizza-size" value="SMALL"> SMALL <img src="img/pizza.jpg" height="100" width="100"></img><br>
+       <input type="radio" name="pizza-size" value="MEDIUM"> MEDIUM <img src="img/pizza.jpg" height="200" width="200"></img><br>
+       <input type="radio" name="pizza-size" value="LARGE"> LARGE <img src="img/pizza.jpg" height="300" width="300"></img><br><br><br>
+      </div>
+     <button type="submit"><img src="img/submit.jpg" height="100" width="150"></button>
+   </form>
+    <span id="topping-choices">
+      <p><b>Your toppings are:</b></p>
+    </span>
+    <br>
+    <span id="size-choice">
+      <p><b>The size of your pizza is:</b></p>
+    </span>
+    <br>
+    <span id="total-cost">
+      <p><b>The cost of your pizza is:</b></p>
+    </span>
+  </div>
+</div>
+</body>
+</html>
