@@ -6,17 +6,16 @@
   <script src="js/scripts.js"></script>
     <title>Pizza Store</title>
   </head>
-  <body background="img/sky.jpg">
+  <body>
     <div class="jumbotron">
-    <img src="img/pizza2.gif" alt="Picture of Moving Pizza"
-      height="200" width="400"></img>
-    <center><h2>YAM Pizza House</h2><center>
+
+    <center><h1>YAM Pizza House</h1><center>
     </div>
     <div class="backgorund">
     <div class="container">
     <form id="pizza-order">
-      <div class="form-group">
-        <h4>Please choose your toppings:</h4>
+      <div class="form-group toppingTitles">
+        <h3>Please choose your toppings:</h3>
         <input type="checkbox" name="topping" value="Pepperoni"> Pepperoni <img src="img/pepperoni.jpg" height="50" width="50"></img><br>
         <input type="checkbox" name="topping" value="Sausage">Sausage <img src="img/sausage.jpg" height="50" width="50"></img><br>
         <input type="checkbox" name="topping" value="Ham">Ham <img src="img/ham.jpg" height="50" width="50"></img><br>
@@ -31,7 +30,7 @@
         <input type="checkbox" name="topping" value="Tomato">Tomato <img src="img/tomato.jpg" height="50" width="50"></img><br>
         <input type="checkbox" name="topping" value="Olives">Olives <img src="img/olives.jpg" height="50" width="50"></img><br>
       </div> <br>
-      <div class="form-group">
+      <div class="form-group sizeChoices">
        <h1>PIZZA SIZE</h1>
        <input type="radio" name="pizza-size" value="SMALL"> SMALL <img src="img/pizza.jpg" height="100" width="100"></img><br>
        <input type="radio" name="pizza-size" value="MEDIUM"> MEDIUM <img src="img/pizza.jpg" height="200" width="200"></img><br>
@@ -39,6 +38,7 @@
       </div>
      <button type="submit"><img src="img/submit.jpg" height="100" width="150"></button>
    </form>
+    <div class="result">
     <span id="topping-choices">
       <p><b>Your toppings are:</b></p>
     </span>
@@ -50,6 +50,7 @@
     <span id="total-cost">
       <p><b>The cost of your pizza is:</b></p>
     </span>
+  </div>
   </div>
 </div>
 </body>
