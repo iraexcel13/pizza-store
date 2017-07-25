@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #topping-choices {
   display: none;
   font-size: 15px;
@@ -13,9 +12,7 @@
   display: none;
 }
 
-.background {
-  background-color: #1E6696;
-}
+
 
 h1 {
   color: blue;
@@ -64,16 +61,6 @@ body {
   background-repeat: no-repeat;
   position: relative;
 }
-=======
-#topping-choices {
-  display: none;
-  font-size: 15px;
-}
-
-#size-choice {
-  display: none;
-  font-size: 15px;
-}
 
 #total-cost {
   display: none;
@@ -97,16 +84,3 @@ h1 {
   color: brown;
   font-style: oblique;
 }
-
-p {
-  color: green;
-  font-weight: bolder;
-  font-size: 20px;
-}
-input {
-  font-size: 32px;
-}
-.jumbotron {
-  background-color: #C19D67;
-}
->>>>>>> c5d1fb11e874350804ce465673a9716e9e385cae
